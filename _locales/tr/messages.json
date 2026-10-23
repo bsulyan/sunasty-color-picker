@@ -1,0 +1,161 @@
+{
+  "extName": {
+    "message": "Sunasty Renk Seçici ve Damlalık"
+  },
+  "extDescription": {
+    "message": "Piksel büyüteci ile ekrandaki herhangi bir rengi seçin, sayfa renk paletini çıkarın ve metin kontrast oranını yerel olarak ölçün."
+  },
+  "cmdPickColor": {
+    "message": "Sunasty Renk Seçici ve Damlalık"
+  },
+  "ctxPickColor": {
+    "message": "Sayfa renklerini Sunasty ile incele"
+  },
+  "tabPick": {
+    "message": "Damlalık"
+  },
+  "tabPalette": {
+    "message": "Palet"
+  },
+  "tabContrast": {
+    "message": "Kontrast"
+  },
+  "tabHistory": {
+    "message": "Geçmiş"
+  },
+  "btnEyedropper": {
+    "message": "Ekrandan renk seç"
+  },
+  "btnLoupe": {
+    "message": "Sekmede piksel büyüteci"
+  },
+  "loupeTitle": {
+    "message": "Tam rengini almak için herhangi bir piksele tıklayın"
+  },
+  "loupeClose": {
+    "message": "Büyüteci kapat"
+  },
+  "labelActiveColor": {
+    "message": "Seçilen renk"
+  },
+  "labelHexCode": {
+    "message": "Onaltılık renk kodu"
+  },
+  "labelRgbCode": {
+    "message": "Kırmızı Yeşil Mavi"
+  },
+  "labelHslCode": {
+    "message": "Ton Doygunluk Parlaklık"
+  },
+  "labelOklchCode": {
+    "message": "Algısal renk alanı"
+  },
+  "labelTailwind": {
+    "message": "En yakın Tailwind tonu"
+  },
+  "labelShades": {
+    "message": "Ton ölçeği"
+  },
+  "labelHarmonies": {
+    "message": "Renk uyumları"
+  },
+  "harmonyComp": {
+    "message": "Tamamlayıcı"
+  },
+  "harmonyAnalog": {
+    "message": "Benzer"
+  },
+  "harmonyTriad": {
+    "message": "Üçlü"
+  },
+  "btnCopy": {
+    "message": "Kopyala"
+  },
+  "copiedToast": {
+    "message": "Panoya kopyalandı"
+  },
+  "palTitle": {
+    "message": "Aktif sekmede algılanan baskın renkler"
+  },
+  "palRescanBtn": {
+    "message": "Sayfayı analiz et"
+  },
+  "palExportCss": {
+    "message": "CSS değişkenlerini aktar"
+  },
+  "palExportJson": {
+    "message": "JSON dışa aktar"
+  },
+  "palEmpty": {
+    "message": "Sayfadaki renkleri çıkarmak için Analiz et düğmesine tıklayın."
+  },
+  "conForeground": {
+    "message": "Metin rengi"
+  },
+  "conBackground": {
+    "message": "Arka plan rengi"
+  },
+  "conSwapBtn": {
+    "message": "Değiştir"
+  },
+  "conRatioLabel": {
+    "message": "Kontrast oranı"
+  },
+  "conPreviewTitle": {
+    "message": "Örnek arayüz başlığı"
+  },
+  "conPreviewBody": {
+    "message": "Yeterli kontrast oranı, açık ve koyu yüzeylerde net okunabilirlik sağlar."
+  },
+  "conNormalAa": {
+    "message": "Normal metin AA (4.5)"
+  },
+  "conLargeAa": {
+    "message": "Büyük metin AA (3.0)"
+  },
+  "conNormalAaa": {
+    "message": "Normal metin AAA (7.0)"
+  },
+  "conLargeAaa": {
+    "message": "Büyük metin AAA (4.5)"
+  },
+  "conPass": {
+    "message": "Uygun"
+  },
+  "conFail": {
+    "message": "Yetersiz"
+  },
+  "conAutoFixBtn": {
+    "message": "AA uyumu için metin rengini otomatik ayarla"
+  },
+  "histSearchPlaceholder": {
+    "message": "Kaydedilen renkleri filtrele..."
+  },
+  "histExportCss": {
+    "message": "CSS aktar"
+  },
+  "histExportJson": {
+    "message": "JSON aktar"
+  },
+  "histClearAll": {
+    "message": "Tümünü temizle"
+  },
+  "histEmpty": {
+    "message": "Henüz kaydedilmiş renk geçmişi yok."
+  },
+  "linkColorTool": {
+    "message": "Sunasty.com üzerinde tam renk stüdyosunu aç →"
+  },
+  "linkContrastTool": {
+    "message": "Sunasty.com üzerinde kontrast aracını aç →"
+  },
+  "footerTools": {
+    "message": "Sunasty.com — 170+ ücretsiz yerel araç"
+  },
+  "footerBy": {
+    "message": "Ulysan tarafından"
+  },
+  "themeToggleTitle": {
+    "message": "Açık veya koyu temayı değiştir"
+  }
+}

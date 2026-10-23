@@ -1,0 +1,161 @@
+{
+  "extName": {
+    "message": "Sunasty 컬러 피커 및 화면 스포이드"
+  },
+  "extDescription": {
+    "message": "픽셀 돋보기로 화면의 모든 색상을 정확히 추출하고, 웹페이지 색상 팔레트 분석과 텍스트 대비율 검사를 브라우저에서 실행하세요."
+  },
+  "cmdPickColor": {
+    "message": "Sunasty 컬러 피커 및 화면 스포이드"
+  },
+  "ctxPickColor": {
+    "message": "Sunasty로 페이지 색상 검사"
+  },
+  "tabPick": {
+    "message": "스포이드"
+  },
+  "tabPalette": {
+    "message": "팔레트"
+  },
+  "tabContrast": {
+    "message": "대비율"
+  },
+  "tabHistory": {
+    "message": "기록"
+  },
+  "btnEyedropper": {
+    "message": "화면에서 색상 추출"
+  },
+  "btnLoupe": {
+    "message": "탭 픽셀 돋보기"
+  },
+  "loupeTitle": {
+    "message": "픽셀을 클릭하여 정확한 색상을 추출하세요"
+  },
+  "loupeClose": {
+    "message": "돋보기 닫기"
+  },
+  "labelActiveColor": {
+    "message": "선택된 색상"
+  },
+  "labelHexCode": {
+    "message": "16진수 색상 코드"
+  },
+  "labelRgbCode": {
+    "message": "빨강 초록 파랑 채널"
+  },
+  "labelHslCode": {
+    "message": "색상 채도 명도"
+  },
+  "labelOklchCode": {
+    "message": "지각 균일 색공간"
+  },
+  "labelTailwind": {
+    "message": "가장 가까운 Tailwind 색상"
+  },
+  "labelShades": {
+    "message": "명도 단계 스케일"
+  },
+  "labelHarmonies": {
+    "message": "색상 조화"
+  },
+  "harmonyComp": {
+    "message": "보색"
+  },
+  "harmonyAnalog": {
+    "message": "유사색"
+  },
+  "harmonyTriad": {
+    "message": "삼각 배색"
+  },
+  "btnCopy": {
+    "message": "복사"
+  },
+  "copiedToast": {
+    "message": "클립보드에 복사되었습니다"
+  },
+  "palTitle": {
+    "message": "현재 탭에서 감지된 주요 색상"
+  },
+  "palRescanBtn": {
+    "message": "페이지 다시 분석"
+  },
+  "palExportCss": {
+    "message": "CSS 변수 내보내기"
+  },
+  "palExportJson": {
+    "message": "JSON 내보내기"
+  },
+  "palEmpty": {
+    "message": "페이지 다시 분석을 눌러 현재 웹페이지의 색상을 추출하세요."
+  },
+  "conForeground": {
+    "message": "텍스트 색상"
+  },
+  "conBackground": {
+    "message": "배경 색상"
+  },
+  "conSwapBtn": {
+    "message": "색상 전환"
+  },
+  "conRatioLabel": {
+    "message": "대비율"
+  },
+  "conPreviewTitle": {
+    "message": "인터페이스 제목 텍스트 예시"
+  },
+  "conPreviewBody": {
+    "message": "충분한 명도 대비는 밝은 화면과 어두운 화면 모두에서 뛰어난 가독성을 보장합니다."
+  },
+  "conNormalAa": {
+    "message": "일반 텍스트 AA (4.5)"
+  },
+  "conLargeAa": {
+    "message": "큰 텍스트 AA (3.0)"
+  },
+  "conNormalAaa": {
+    "message": "일반 텍스트 AAA (7.0)"
+  },
+  "conLargeAaa": {
+    "message": "큰 텍스트 AAA (4.5)"
+  },
+  "conPass": {
+    "message": "통과"
+  },
+  "conFail": {
+    "message": "미달"
+  },
+  "conAutoFixBtn": {
+    "message": "AA 기준에 맞게 텍스트 밝기 자동 보정"
+  },
+  "histSearchPlaceholder": {
+    "message": "저장된 색상 검색..."
+  },
+  "histExportCss": {
+    "message": "CSS 내보내기"
+  },
+  "histExportJson": {
+    "message": "JSON 내보내기"
+  },
+  "histClearAll": {
+    "message": "모두 지우기"
+  },
+  "histEmpty": {
+    "message": "아직 저장된 색상 기록이 없습니다."
+  },
+  "linkColorTool": {
+    "message": "Sunasty.com에서 전체 컬러 스튜디오 열기 →"
+  },
+  "linkContrastTool": {
+    "message": "Sunasty.com에서 대비율 검사기 열기 →"
+  },
+  "footerTools": {
+    "message": "Sunasty.com — 170개 이상의 무료 로컬 도구"
+  },
+  "footerBy": {
+    "message": "By Ulysan"
+  },
+  "themeToggleTitle": {
+    "message": "라이트 및 다크 테마 전환"
+  }
+}

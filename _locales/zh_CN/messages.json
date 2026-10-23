@@ -1,0 +1,161 @@
+{
+  "extName": {
+    "message": "Sunasty 屏幕取色器与网页配色工具"
+  },
+  "extDescription": {
+    "message": "通过像素放大镜精准拾取屏幕颜色，自动提取当前网页主题调色板，并在本地实时检测文字与背景的对比度可读性。"
+  },
+  "cmdPickColor": {
+    "message": "Sunasty 屏幕取色器与网页配色工具"
+  },
+  "ctxPickColor": {
+    "message": "使用 Sunasty 分析网页颜色"
+  },
+  "tabPick": {
+    "message": "取色器"
+  },
+  "tabPalette": {
+    "message": "网页配色"
+  },
+  "tabContrast": {
+    "message": "对比度"
+  },
+  "tabHistory": {
+    "message": "历史"
+  },
+  "btnEyedropper": {
+    "message": "从屏幕拾取颜色"
+  },
+  "btnLoupe": {
+    "message": "网页像素放大镜"
+  },
+  "loupeTitle": {
+    "message": "点击任意像素以提取精确颜色"
+  },
+  "loupeClose": {
+    "message": "关闭放大镜"
+  },
+  "labelActiveColor": {
+    "message": "当前选中颜色"
+  },
+  "labelHexCode": {
+    "message": "十六进制色值"
+  },
+  "labelRgbCode": {
+    "message": "红绿蓝通道"
+  },
+  "labelHslCode": {
+    "message": "色相饱和度亮度"
+  },
+  "labelOklchCode": {
+    "message": "感知均匀色彩空间"
+  },
+  "labelTailwind": {
+    "message": "最接近的 Tailwind 色阶"
+  },
+  "labelShades": {
+    "message": "明暗色阶过渡"
+  },
+  "labelHarmonies": {
+    "message": "色彩调和搭配"
+  },
+  "harmonyComp": {
+    "message": "互补色"
+  },
+  "harmonyAnalog": {
+    "message": "邻近色"
+  },
+  "harmonyTriad": {
+    "message": "三角色"
+  },
+  "btnCopy": {
+    "message": "复制"
+  },
+  "copiedToast": {
+    "message": "已复制到剪贴板"
+  },
+  "palTitle": {
+    "message": "从当前标签页提取的主要配色"
+  },
+  "palRescanBtn": {
+    "message": "重新分析网页"
+  },
+  "palExportCss": {
+    "message": "导出 CSS 变量"
+  },
+  "palExportJson": {
+    "message": "导出 JSON"
+  },
+  "palEmpty": {
+    "message": "点击重新分析以提取当前网页使用的颜色。"
+  },
+  "conForeground": {
+    "message": "文字颜色"
+  },
+  "conBackground": {
+    "message": "背景颜色"
+  },
+  "conSwapBtn": {
+    "message": "互换颜色"
+  },
+  "conRatioLabel": {
+    "message": "对比度比值"
+  },
+  "conPreviewTitle": {
+    "message": "界面标题可读性示例"
+  },
+  "conPreviewBody": {
+    "message": "良好的色彩对比度能够确保文字在浅色与深色界面上都清晰易读。"
+  },
+  "conNormalAa": {
+    "message": "常规正文 AA (4.5)"
+  },
+  "conLargeAa": {
+    "message": "大号文字 AA (3.0)"
+  },
+  "conNormalAaa": {
+    "message": "常规正文 AAA (7.0)"
+  },
+  "conLargeAaa": {
+    "message": "大号文字 AAA (4.5)"
+  },
+  "conPass": {
+    "message": "达标"
+  },
+  "conFail": {
+    "message": "不足"
+  },
+  "conAutoFixBtn": {
+    "message": "自动调整文字亮度以符合 AA 标准"
+  },
+  "histSearchPlaceholder": {
+    "message": "搜索已保存的颜色..."
+  },
+  "histExportCss": {
+    "message": "导出 CSS"
+  },
+  "histExportJson": {
+    "message": "导出 JSON"
+  },
+  "histClearAll": {
+    "message": "清空全部"
+  },
+  "histEmpty": {
+    "message": "暂无已保存的取色记录。"
+  },
+  "linkColorTool": {
+    "message": "在 Sunasty.com 打开完整色彩工作台 →"
+  },
+  "linkContrastTool": {
+    "message": "在 Sunasty.com 打开对比度检测工具 →"
+  },
+  "footerTools": {
+    "message": "Sunasty.com — 170+ 本地工具"
+  },
+  "footerBy": {
+    "message": "由 Ulysan 出品"
+  },
+  "themeToggleTitle": {
+    "message": "切换浅色或深色主题"
+  }
+}

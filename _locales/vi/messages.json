@@ -1,0 +1,161 @@
+{
+  "extName": {
+    "message": "Sunasty Bộ Chọn Màu & Ống Nhỏ Giọt"
+  },
+  "extDescription": {
+    "message": "Lấy bất kỳ màu nào trên màn hình với kính lúp điểm ảnh, trích xuất bảng màu trang web và kiểm tra độ tương phản chữ cục bộ."
+  },
+  "cmdPickColor": {
+    "message": "Sunasty Bộ Chọn Màu & Ống Nhỏ Giọt"
+  },
+  "ctxPickColor": {
+    "message": "Kiểm tra màu sắc trang web bằng Sunasty"
+  },
+  "tabPick": {
+    "message": "Ống nhỏ giọt"
+  },
+  "tabPalette": {
+    "message": "Bảng màu"
+  },
+  "tabContrast": {
+    "message": "Tương phản"
+  },
+  "tabHistory": {
+    "message": "Lịch sử"
+  },
+  "btnEyedropper": {
+    "message": "Chọn màu trên màn hình"
+  },
+  "btnLoupe": {
+    "message": "Kính lúp điểm ảnh"
+  },
+  "loupeTitle": {
+    "message": "Nhấp vào điểm ảnh bất kỳ để lấy màu chính xác"
+  },
+  "loupeClose": {
+    "message": "Đóng kính lúp"
+  },
+  "labelActiveColor": {
+    "message": "Màu đang chọn"
+  },
+  "labelHexCode": {
+    "message": "Mã thập lục phân"
+  },
+  "labelRgbCode": {
+    "message": "Đỏ Lục Lam"
+  },
+  "labelHslCode": {
+    "message": "Sắc độ Bão hòa Độ sáng"
+  },
+  "labelOklchCode": {
+    "message": "Không gian màu cảm nhận"
+  },
+  "labelTailwind": {
+    "message": "Sắc thái Tailwind gần nhất"
+  },
+  "labelShades": {
+    "message": "Thang sắc độ"
+  },
+  "labelHarmonies": {
+    "message": "Phối màu hài hòa"
+  },
+  "harmonyComp": {
+    "message": "Bổ túc"
+  },
+  "harmonyAnalog": {
+    "message": "Tương đồng"
+  },
+  "harmonyTriad": {
+    "message": "Tam giác"
+  },
+  "btnCopy": {
+    "message": "Sao chép"
+  },
+  "copiedToast": {
+    "message": "Đã sao chép vào bộ nhớ tạm"
+  },
+  "palTitle": {
+    "message": "Các màu chủ đạo phát hiện trên tab hiện tại"
+  },
+  "palRescanBtn": {
+    "message": "Phân tích trang"
+  },
+  "palExportCss": {
+    "message": "Xuất biến CSS"
+  },
+  "palExportJson": {
+    "message": "Xuất JSON"
+  },
+  "palEmpty": {
+    "message": "Nhấn Phân tích trang để trích xuất bảng màu từ trang hiện tại."
+  },
+  "conForeground": {
+    "message": "Màu chữ"
+  },
+  "conBackground": {
+    "message": "Màu nền"
+  },
+  "conSwapBtn": {
+    "message": "Đảo màu"
+  },
+  "conRatioLabel": {
+    "message": "Tỷ lệ tương phản"
+  },
+  "conPreviewTitle": {
+    "message": "Tiêu đề giao diện mẫu"
+  },
+  "conPreviewBody": {
+    "message": "Độ tương phản tốt giúp văn bản hiển thị rõ ràng trên cả nền sáng và nền tối."
+  },
+  "conNormalAa": {
+    "message": "Chữ thường AA (4.5)"
+  },
+  "conLargeAa": {
+    "message": "Chữ lớn AA (3.0)"
+  },
+  "conNormalAaa": {
+    "message": "Chữ thường AAA (7.0)"
+  },
+  "conLargeAaa": {
+    "message": "Chữ lớn AAA (4.5)"
+  },
+  "conPass": {
+    "message": "Đạt"
+  },
+  "conFail": {
+    "message": "Chưa đạt"
+  },
+  "conAutoFixBtn": {
+    "message": "Tự động chỉnh độ sáng chữ đạt chuẩn AA"
+  },
+  "histSearchPlaceholder": {
+    "message": "Lọc màu đã lưu..."
+  },
+  "histExportCss": {
+    "message": "Xuất CSS"
+  },
+  "histExportJson": {
+    "message": "Xuất JSON"
+  },
+  "histClearAll": {
+    "message": "Xóa tất cả"
+  },
+  "histEmpty": {
+    "message": "Chưa có màu nào trong lịch sử."
+  },
+  "linkColorTool": {
+    "message": "Mở bộ công cụ màu sắc đầy đủ trên Sunasty.com →"
+  },
+  "linkContrastTool": {
+    "message": "Mở trình kiểm tra tương phản trên Sunasty.com →"
+  },
+  "footerTools": {
+    "message": "Sunasty.com — 170+ công cụ cục bộ miễn phí"
+  },
+  "footerBy": {
+    "message": "Bởi Ulysan"
+  },
+  "themeToggleTitle": {
+    "message": "Chuyển giao diện sáng hoặc tối"
+  }
+}

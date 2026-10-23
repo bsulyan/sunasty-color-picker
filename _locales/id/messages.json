@@ -1,0 +1,161 @@
+{
+  "extName": {
+    "message": "Sunasty Pemilih Warna & Pipet Layar"
+  },
+  "extDescription": {
+    "message": "Ambil warna apa pun di layar dengan kaca pembesar piksel, ekstrak palet halaman web, dan periksa rasio kontras teks secara lokal."
+  },
+  "cmdPickColor": {
+    "message": "Sunasty Pemilih Warna & Pipet Layar"
+  },
+  "ctxPickColor": {
+    "message": "Periksa warna halaman dengan Sunasty"
+  },
+  "tabPick": {
+    "message": "Pipet"
+  },
+  "tabPalette": {
+    "message": "Palet"
+  },
+  "tabContrast": {
+    "message": "Kontras"
+  },
+  "tabHistory": {
+    "message": "Riwayat"
+  },
+  "btnEyedropper": {
+    "message": "Ambil warna dari layar"
+  },
+  "btnLoupe": {
+    "message": "Kaca pembesar piksel"
+  },
+  "loupeTitle": {
+    "message": "Klik piksel mana saja untuk mengambil warnanya"
+  },
+  "loupeClose": {
+    "message": "Tutup pembesar"
+  },
+  "labelActiveColor": {
+    "message": "Warna terpilih"
+  },
+  "labelHexCode": {
+    "message": "Kode heksadesimal"
+  },
+  "labelRgbCode": {
+    "message": "Merah Hijau Biru"
+  },
+  "labelHslCode": {
+    "message": "Rona Saturasi Kecerahan"
+  },
+  "labelOklchCode": {
+    "message": "Ruang warna perseptual"
+  },
+  "labelTailwind": {
+    "message": "Nuansa Tailwind terdekat"
+  },
+  "labelShades": {
+    "message": "Skala gradasi warna"
+  },
+  "labelHarmonies": {
+    "message": "Harmoni warna"
+  },
+  "harmonyComp": {
+    "message": "Komplementer"
+  },
+  "harmonyAnalog": {
+    "message": "Analog"
+  },
+  "harmonyTriad": {
+    "message": "Triadik"
+  },
+  "btnCopy": {
+    "message": "Salin"
+  },
+  "copiedToast": {
+    "message": "Disalin ke papan klip"
+  },
+  "palTitle": {
+    "message": "Warna dominan yang terdeteksi di tab aktif"
+  },
+  "palRescanBtn": {
+    "message": "Pindai ulang halaman"
+  },
+  "palExportCss": {
+    "message": "Ekspor variabel CSS"
+  },
+  "palExportJson": {
+    "message": "Ekspor JSON"
+  },
+  "palEmpty": {
+    "message": "Klik Pindai ulang untuk mengekstrak warna dari halaman saat ini."
+  },
+  "conForeground": {
+    "message": "Warna teks"
+  },
+  "conBackground": {
+    "message": "Warna latar"
+  },
+  "conSwapBtn": {
+    "message": "Tukar warna"
+  },
+  "conRatioLabel": {
+    "message": "Rasio kontras"
+  },
+  "conPreviewTitle": {
+    "message": "Contoh judul antarmuka"
+  },
+  "conPreviewBody": {
+    "message": "Kontras yang memadai memastikan teks mudah dibaca di latar terang maupun gelap."
+  },
+  "conNormalAa": {
+    "message": "Teks normal AA (4.5)"
+  },
+  "conLargeAa": {
+    "message": "Teks besar AA (3.0)"
+  },
+  "conNormalAaa": {
+    "message": "Teks normal AAA (7.0)"
+  },
+  "conLargeAaa": {
+    "message": "Teks besar AAA (4.5)"
+  },
+  "conPass": {
+    "message": "Lulus"
+  },
+  "conFail": {
+    "message": "Kurang"
+  },
+  "conAutoFixBtn": {
+    "message": "Sesuaikan teks otomatis untuk standar AA"
+  },
+  "histSearchPlaceholder": {
+    "message": "Saring warna tersimpan..."
+  },
+  "histExportCss": {
+    "message": "Ekspor CSS"
+  },
+  "histExportJson": {
+    "message": "Ekspor JSON"
+  },
+  "histClearAll": {
+    "message": "Hapus semua"
+  },
+  "histEmpty": {
+    "message": "Belum ada riwayat warna tersimpan."
+  },
+  "linkColorTool": {
+    "message": "Buka studio warna lengkap di Sunasty.com →"
+  },
+  "linkContrastTool": {
+    "message": "Buka pemeriksa kontras di Sunasty.com →"
+  },
+  "footerTools": {
+    "message": "Sunasty.com — 170+ alat lokal gratis"
+  },
+  "footerBy": {
+    "message": "Oleh Ulysan"
+  },
+  "themeToggleTitle": {
+    "message": "Ganti tema terang atau gelap"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "extName": {
+    "message": "Sunasty Próbnik Kolorów i Pipeta"
+  },
+  "extDescription": {
+    "message": "Pobierz dowolny kolor z ekranu za pomocą lupy pikselowej, wyodrębnij paletę strony i sprawdź kontrast tekstu lokalnie."
+  },
+  "cmdPickColor": {
+    "message": "Sunasty Próbnik Kolorów i Pipeta"
+  },
+  "ctxPickColor": {
+    "message": "Zbadaj kolory strony za pomocą Sunasty"
+  },
+  "tabPick": {
+    "message": "Pipeta"
+  },
+  "tabPalette": {
+    "message": "Paleta"
+  },
+  "tabContrast": {
+    "message": "Kontrast"
+  },
+  "tabHistory": {
+    "message": "Historia"
+  },
+  "btnEyedropper": {
+    "message": "Pobierz kolor z ekranu"
+  },
+  "btnLoupe": {
+    "message": "Lupa pikselowa na karcie"
+  },
+  "loupeTitle": {
+    "message": "Kliknij dowolny piksel, aby pobrać jego dokładny kolor"
+  },
+  "loupeClose": {
+    "message": "Zamknij lupę"
+  },
+  "labelActiveColor": {
+    "message": "Wybrany kolor"
+  },
+  "labelHexCode": {
+    "message": "Wartość szesnastkowa"
+  },
+  "labelRgbCode": {
+    "message": "Czerwony Zielony Niebieski"
+  },
+  "labelHslCode": {
+    "message": "Odcień Nasycenie Jasność"
+  },
+  "labelOklchCode": {
+    "message": "Przestrzeń percepcyjna"
+  },
+  "labelTailwind": {
+    "message": "Najbliższy odcień Tailwind"
+  },
+  "labelShades": {
+    "message": "Skala odcieni"
+  },
+  "labelHarmonies": {
+    "message": "Harmonie barw"
+  },
+  "harmonyComp": {
+    "message": "Dopełniający"
+  },
+  "harmonyAnalog": {
+    "message": "Analogiczny"
+  },
+  "harmonyTriad": {
+    "message": "Triadyczny"
+  },
+  "btnCopy": {
+    "message": "Kopiuj"
+  },
+  "copiedToast": {
+    "message": "Skopiowano do schowka"
+  },
+  "palTitle": {
+    "message": "Dominujące kolory wykryte na aktywnej karcie"
+  },
+  "palRescanBtn": {
+    "message": "Analizuj stronę"
+  },
+  "palExportCss": {
+    "message": "Eksportuj zmienne CSS"
+  },
+  "palExportJson": {
+    "message": "Eksportuj JSON"
+  },
+  "palEmpty": {
+    "message": "Kliknij Analizuj, aby wyodrębnić kolory z bieżącej strony."
+  },
+  "conForeground": {
+    "message": "Kolor tekstu"
+  },
+  "conBackground": {
+    "message": "Kolor tła"
+  },
+  "conSwapBtn": {
+    "message": "Zamień"
+  },
+  "conRatioLabel": {
+    "message": "Współczynnik kontrastu"
+  },
+  "conPreviewTitle": {
+    "message": "Przykładowy nagłówek interfejsu"
+  },
+  "conPreviewBody": {
+    "message": "Odpowiedni kontrast zapewnia wygodne czytanie na jasnych i ciemnych tłach."
+  },
+  "conNormalAa": {
+    "message": "Zwykły tekst AA (4.5)"
+  },
+  "conLargeAa": {
+    "message": "Duży tekst AA (3.0)"
+  },
+  "conNormalAaa": {
+    "message": "Zwykły tekst AAA (7.0)"
+  },
+  "conLargeAaa": {
+    "message": "Duży tekst AAA (4.5)"
+  },
+  "conPass": {
+    "message": "Zgodny"
+  },
+  "conFail": {
+    "message": "Za niski"
+  },
+  "conAutoFixBtn": {
+    "message": "Automatycznie dopasuj tekst do normy AA"
+  },
+  "histSearchPlaceholder": {
+    "message": "Filtruj zapisane kolory..."
+  },
+  "histExportCss": {
+    "message": "Eksportuj CSS"
+  },
+  "histExportJson": {
+    "message": "Eksportuj JSON"
+  },
+  "histClearAll": {
+    "message": "Wyczyść wszystko"
+  },
+  "histEmpty": {
+    "message": "Brak zapisanych kolorów w historii."
+  },
+  "linkColorTool": {
+    "message": "Pełne studio kolorów na Sunasty.com →"
+  },
+  "linkContrastTool": {
+    "message": "Analizator kontrastu na Sunasty.com →"
+  },
+  "footerTools": {
+    "message": "Sunasty.com — 170+ lokalnych narzędzi"
+  },
+  "footerBy": {
+    "message": "Od Ulysan"
+  },
+  "themeToggleTitle": {
+    "message": "Przełącz jasny lub ciemny motyw"
+  }
+}

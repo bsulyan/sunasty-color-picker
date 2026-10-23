@@ -1,0 +1,161 @@
+{
+  "extName": {
+    "message": "Sunasty Color Picker & Eyedropper"
+  },
+  "extDescription": {
+    "message": "Pick any screen color with a pixel magnifier, extract page palettes, and verify text contrast ratios locally in your browser."
+  },
+  "cmdPickColor": {
+    "message": "Sunasty Color Picker & Eyedropper"
+  },
+  "ctxPickColor": {
+    "message": "Inspect page colors with Sunasty"
+  },
+  "tabPick": {
+    "message": "Picker"
+  },
+  "tabPalette": {
+    "message": "Palette"
+  },
+  "tabContrast": {
+    "message": "Contrast"
+  },
+  "tabHistory": {
+    "message": "History"
+  },
+  "btnEyedropper": {
+    "message": "Pick color from screen"
+  },
+  "btnLoupe": {
+    "message": "Pixel loupe on tab"
+  },
+  "loupeTitle": {
+    "message": "Click any pixel to sample its exact color"
+  },
+  "loupeClose": {
+    "message": "Close loupe"
+  },
+  "labelActiveColor": {
+    "message": "Selected color"
+  },
+  "labelHexCode": {
+    "message": "Hexadecimal"
+  },
+  "labelRgbCode": {
+    "message": "Red Green Blue"
+  },
+  "labelHslCode": {
+    "message": "Hue Saturation Lightness"
+  },
+  "labelOklchCode": {
+    "message": "Perceptual Lightness Chroma"
+  },
+  "labelTailwind": {
+    "message": "Closest Tailwind shade"
+  },
+  "labelShades": {
+    "message": "Tonal shade scale"
+  },
+  "labelHarmonies": {
+    "message": "Color harmonies"
+  },
+  "harmonyComp": {
+    "message": "Complementary"
+  },
+  "harmonyAnalog": {
+    "message": "Analogous"
+  },
+  "harmonyTriad": {
+    "message": "Triadic"
+  },
+  "btnCopy": {
+    "message": "Copy"
+  },
+  "copiedToast": {
+    "message": "Copied to clipboard"
+  },
+  "palTitle": {
+    "message": "Dominant colors detected on active tab"
+  },
+  "palRescanBtn": {
+    "message": "Rescan page"
+  },
+  "palExportCss": {
+    "message": "Export CSS variables"
+  },
+  "palExportJson": {
+    "message": "Export JSON"
+  },
+  "palEmpty": {
+    "message": "Click Rescan to extract colors from the current page."
+  },
+  "conForeground": {
+    "message": "Text color"
+  },
+  "conBackground": {
+    "message": "Background color"
+  },
+  "conSwapBtn": {
+    "message": "Swap colors"
+  },
+  "conRatioLabel": {
+    "message": "Contrast ratio"
+  },
+  "conPreviewTitle": {
+    "message": "Sample interface heading"
+  },
+  "conPreviewBody": {
+    "message": "Readable body text ensures clear visual hierarchy across light and dark surfaces."
+  },
+  "conNormalAa": {
+    "message": "Normal text AA (4.5)"
+  },
+  "conLargeAa": {
+    "message": "Large text AA (3.0)"
+  },
+  "conNormalAaa": {
+    "message": "Normal text AAA (7.0)"
+  },
+  "conLargeAaa": {
+    "message": "Large text AAA (4.5)"
+  },
+  "conPass": {
+    "message": "Pass"
+  },
+  "conFail": {
+    "message": "Fail"
+  },
+  "conAutoFixBtn": {
+    "message": "Auto-adjust text for AA compliance"
+  },
+  "histSearchPlaceholder": {
+    "message": "Filter saved colors..."
+  },
+  "histExportCss": {
+    "message": "Export CSS"
+  },
+  "histExportJson": {
+    "message": "Export JSON"
+  },
+  "histClearAll": {
+    "message": "Clear all"
+  },
+  "histEmpty": {
+    "message": "No colors saved in history yet."
+  },
+  "linkColorTool": {
+    "message": "Open full color studio on Sunasty.com →"
+  },
+  "linkContrastTool": {
+    "message": "Open contrast analyzer on Sunasty.com →"
+  },
+  "footerTools": {
+    "message": "Sunasty.com — 170+ local tools"
+  },
+  "footerBy": {
+    "message": "By Ulysan"
+  },
+  "themeToggleTitle": {
+    "message": "Switch light and dark theme"
+  }
+}

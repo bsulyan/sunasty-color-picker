@@ -1,0 +1,161 @@
+{
+  "extName": {
+    "message": "Sunasty Seletor de Cores e Conta-gotas"
+  },
+  "extDescription": {
+    "message": "Capture qualquer cor da tela com lupa de pixels, extraia a paleta da página e verifique o contraste de leitura localmente."
+  },
+  "cmdPickColor": {
+    "message": "Sunasty Seletor de Cores e Conta-gotas"
+  },
+  "ctxPickColor": {
+    "message": "Inspecionar cores da página com Sunasty"
+  },
+  "tabPick": {
+    "message": "Conta-gotas"
+  },
+  "tabPalette": {
+    "message": "Paleta"
+  },
+  "tabContrast": {
+    "message": "Contraste"
+  },
+  "tabHistory": {
+    "message": "Histórico"
+  },
+  "btnEyedropper": {
+    "message": "Capturar cor da tela"
+  },
+  "btnLoupe": {
+    "message": "Lupa de pixels na aba"
+  },
+  "loupeTitle": {
+    "message": "Clique em qualquer pixel para capturar sua cor exata"
+  },
+  "loupeClose": {
+    "message": "Fechar lupa"
+  },
+  "labelActiveColor": {
+    "message": "Cor selecionada"
+  },
+  "labelHexCode": {
+    "message": "Código hexadecimal"
+  },
+  "labelRgbCode": {
+    "message": "Vermelho Verde Azul"
+  },
+  "labelHslCode": {
+    "message": "Matiz Saturação Luminosidade"
+  },
+  "labelOklchCode": {
+    "message": "Espaço perceptivo"
+  },
+  "labelTailwind": {
+    "message": "Tom Tailwind mais próximo"
+  },
+  "labelShades": {
+    "message": "Escala de tons"
+  },
+  "labelHarmonies": {
+    "message": "Harmonias de cores"
+  },
+  "harmonyComp": {
+    "message": "Complementar"
+  },
+  "harmonyAnalog": {
+    "message": "Análoga"
+  },
+  "harmonyTriad": {
+    "message": "Triádica"
+  },
+  "btnCopy": {
+    "message": "Copiar"
+  },
+  "copiedToast": {
+    "message": "Copiado para a área de transferência"
+  },
+  "palTitle": {
+    "message": "Cores dominantes detectadas na aba ativa"
+  },
+  "palRescanBtn": {
+    "message": "Analisar página"
+  },
+  "palExportCss": {
+    "message": "Exportar variáveis CSS"
+  },
+  "palExportJson": {
+    "message": "Exportar JSON"
+  },
+  "palEmpty": {
+    "message": "Clique em Analisar para extrair as cores da página."
+  },
+  "conForeground": {
+    "message": "Cor do texto"
+  },
+  "conBackground": {
+    "message": "Cor de fundo"
+  },
+  "conSwapBtn": {
+    "message": "Inverter"
+  },
+  "conRatioLabel": {
+    "message": "Taxa de contraste"
+  },
+  "conPreviewTitle": {
+    "message": "Título de exemplo da interface"
+  },
+  "conPreviewBody": {
+    "message": "Um bom contraste garante leitura confortável em superfícies claras e escuras."
+  },
+  "conNormalAa": {
+    "message": "Texto normal AA (4.5)"
+  },
+  "conLargeAa": {
+    "message": "Texto grande AA (3.0)"
+  },
+  "conNormalAaa": {
+    "message": "Texto normal AAA (7.0)"
+  },
+  "conLargeAaa": {
+    "message": "Texto grande AAA (4.5)"
+  },
+  "conPass": {
+    "message": "Aprovado"
+  },
+  "conFail": {
+    "message": "Insuficiente"
+  },
+  "conAutoFixBtn": {
+    "message": "Ajustar texto automaticamente para nível AA"
+  },
+  "histSearchPlaceholder": {
+    "message": "Filtrar cores salvas..."
+  },
+  "histExportCss": {
+    "message": "Exportar CSS"
+  },
+  "histExportJson": {
+    "message": "Exportar JSON"
+  },
+  "histClearAll": {
+    "message": "Limpar tudo"
+  },
+  "histEmpty": {
+    "message": "Nenhuma cor salva no histórico."
+  },
+  "linkColorTool": {
+    "message": "Estúdio de cores completo no Sunasty.com →"
+  },
+  "linkContrastTool": {
+    "message": "Verificador de contraste no Sunasty.com →"
+  },
+  "footerTools": {
+    "message": "Sunasty.com — 170+ ferramentas locais"
+  },
+  "footerBy": {
+    "message": "Por Ulysan"
+  },
+  "themeToggleTitle": {
+    "message": "Alternar tema claro ou escuro"
+  }
+}

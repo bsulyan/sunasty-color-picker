@@ -1,0 +1,161 @@
+{
+  "extName": {
+    "message": "Sunasty Pipette & Sélecteur de Couleur"
+  },
+  "extDescription": {
+    "message": "Prélevez toute couleur à l’écran avec loupe au pixel, extrayez la palette de la page et vérifiez le contraste de vos textes."
+  },
+  "cmdPickColor": {
+    "message": "Sunasty Pipette & Sélecteur de Couleur"
+  },
+  "ctxPickColor": {
+    "message": "Inspecter les couleurs de la page avec Sunasty"
+  },
+  "tabPick": {
+    "message": "Pipette"
+  },
+  "tabPalette": {
+    "message": "Palette"
+  },
+  "tabContrast": {
+    "message": "Contraste"
+  },
+  "tabHistory": {
+    "message": "Historique"
+  },
+  "btnEyedropper": {
+    "message": "Prélever à l’écran"
+  },
+  "btnLoupe": {
+    "message": "Loupe pixel sur l’onglet"
+  },
+  "loupeTitle": {
+    "message": "Cliquez sur un pixel pour prélever sa couleur exacte"
+  },
+  "loupeClose": {
+    "message": "Fermer la loupe"
+  },
+  "labelActiveColor": {
+    "message": "Couleur sélectionnée"
+  },
+  "labelHexCode": {
+    "message": "Code hexadécimal"
+  },
+  "labelRgbCode": {
+    "message": "Rouge Vert Bleu"
+  },
+  "labelHslCode": {
+    "message": "Teinte Saturation Luminosité"
+  },
+  "labelOklchCode": {
+    "message": "Espace perceptuel"
+  },
+  "labelTailwind": {
+    "message": "Nuance Tailwind proche"
+  },
+  "labelShades": {
+    "message": "Échelle de nuances"
+  },
+  "labelHarmonies": {
+    "message": "Harmonies chromatiques"
+  },
+  "harmonyComp": {
+    "message": "Complémentaire"
+  },
+  "harmonyAnalog": {
+    "message": "Analogue"
+  },
+  "harmonyTriad": {
+    "message": "Triadique"
+  },
+  "btnCopy": {
+    "message": "Copier"
+  },
+  "copiedToast": {
+    "message": "Copié dans le presse-papiers"
+  },
+  "palTitle": {
+    "message": "Couleurs dominantes détectées sur l’onglet actif"
+  },
+  "palRescanBtn": {
+    "message": "Analyser la page"
+  },
+  "palExportCss": {
+    "message": "Exporter variables CSS"
+  },
+  "palExportJson": {
+    "message": "Exporter JSON"
+  },
+  "palEmpty": {
+    "message": "Cliquez sur Analyser pour extraire les couleurs de la page."
+  },
+  "conForeground": {
+    "message": "Couleur du texte"
+  },
+  "conBackground": {
+    "message": "Couleur de fond"
+  },
+  "conSwapBtn": {
+    "message": "Inverser"
+  },
+  "conRatioLabel": {
+    "message": "Ratio de contraste"
+  },
+  "conPreviewTitle": {
+    "message": "Exemple de titre d’interface"
+  },
+  "conPreviewBody": {
+    "message": "Un contraste suffisant garantit une lecture confortable sur tous les écrans."
+  },
+  "conNormalAa": {
+    "message": "Texte normal AA (4.5)"
+  },
+  "conLargeAa": {
+    "message": "Grand texte AA (3.0)"
+  },
+  "conNormalAaa": {
+    "message": "Texte normal AAA (7.0)"
+  },
+  "conLargeAaa": {
+    "message": "Grand texte AAA (4.5)"
+  },
+  "conPass": {
+    "message": "Conforme"
+  },
+  "conFail": {
+    "message": "Insuffisant"
+  },
+  "conAutoFixBtn": {
+    "message": "Corriger automatiquement pour le niveau AA"
+  },
+  "histSearchPlaceholder": {
+    "message": "Rechercher une couleur enregistrée..."
+  },
+  "histExportCss": {
+    "message": "Exporter CSS"
+  },
+  "histExportJson": {
+    "message": "Exporter JSON"
+  },
+  "histClearAll": {
+    "message": "Tout effacer"
+  },
+  "histEmpty": {
+    "message": "Aucune couleur enregistrée dans l’historique."
+  },
+  "linkColorTool": {
+    "message": "Atelier de couleurs complet sur Sunasty.com →"
+  },
+  "linkContrastTool": {
+    "message": "Vérificateur de contraste sur Sunasty.com →"
+  },
+  "footerTools": {
+    "message": "Sunasty.com — 170+ outils locaux"
+  },
+  "footerBy": {
+    "message": "Par Ulysan"
+  },
+  "themeToggleTitle": {
+    "message": "Basculer le thème clair ou sombre"
+  }
+}

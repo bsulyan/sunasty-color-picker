@@ -1,0 +1,161 @@
+{
+  "extName": {
+    "message": "Sunasty منتقي الألوان والقطارة"
+  },
+  "extDescription": {
+    "message": "التقط أي لون من الشاشة باستخدام عدسة تكبير البكسل، واستخرج لوحة ألوان الصفحة وتحقق من تباين النصوص محلياً في متصفحك."
+  },
+  "cmdPickColor": {
+    "message": "Sunasty منتقي الألوان والقطارة"
+  },
+  "ctxPickColor": {
+    "message": "فحص ألوان الصفحة باستخدام Sunasty"
+  },
+  "tabPick": {
+    "message": "القطارة"
+  },
+  "tabPalette": {
+    "message": "لوحة الألوان"
+  },
+  "tabContrast": {
+    "message": "التباين"
+  },
+  "tabHistory": {
+    "message": "السجل"
+  },
+  "btnEyedropper": {
+    "message": "التقاط لون من الشاشة"
+  },
+  "btnLoupe": {
+    "message": "عدسة البكسل للتبويب"
+  },
+  "loupeTitle": {
+    "message": "انقر على أي بكسل لالتقاط لونه بدقة"
+  },
+  "loupeClose": {
+    "message": "إغلاق العدسة"
+  },
+  "labelActiveColor": {
+    "message": "اللون المحدد"
+  },
+  "labelHexCode": {
+    "message": "الرمز الست عشري"
+  },
+  "labelRgbCode": {
+    "message": "أحمر أخضر أزرق"
+  },
+  "labelHslCode": {
+    "message": "صبغة تشبع إضاءة"
+  },
+  "labelOklchCode": {
+    "message": "الفضاء اللوني الإدراكي"
+  },
+  "labelTailwind": {
+    "message": "أقرب درجة في Tailwind"
+  },
+  "labelShades": {
+    "message": "تدرجات اللون"
+  },
+  "labelHarmonies": {
+    "message": "تناغم الألوان"
+  },
+  "harmonyComp": {
+    "message": "مكمل"
+  },
+  "harmonyAnalog": {
+    "message": "متجاور"
+  },
+  "harmonyTriad": {
+    "message": "ثلاثي"
+  },
+  "btnCopy": {
+    "message": "نسخ"
+  },
+  "copiedToast": {
+    "message": "تم النسخ إلى الحافظة"
+  },
+  "palTitle": {
+    "message": "الألوان السائدة المكتشفة في التبويب النشط"
+  },
+  "palRescanBtn": {
+    "message": "تحليل الصفحة"
+  },
+  "palExportCss": {
+    "message": "تصدير متغيرات CSS"
+  },
+  "palExportJson": {
+    "message": "تصدير JSON"
+  },
+  "palEmpty": {
+    "message": "انقر على تحليل الصفحة لاستخراج الألوان المستخدمة."
+  },
+  "conForeground": {
+    "message": "لون النص"
+  },
+  "conBackground": {
+    "message": "لون الخلفية"
+  },
+  "conSwapBtn": {
+    "message": "تبديل"
+  },
+  "conRatioLabel": {
+    "message": "نسبة التباين"
+  },
+  "conPreviewTitle": {
+    "message": "عنوان واجهة تجريبي"
+  },
+  "conPreviewBody": {
+    "message": "يضمن التباين الجيد قراءة واضحة ومريحة على الأسطح الفاتحة والداكنة."
+  },
+  "conNormalAa": {
+    "message": "نص عادي AA (4.5)"
+  },
+  "conLargeAa": {
+    "message": "نص كبير AA (3.0)"
+  },
+  "conNormalAaa": {
+    "message": "نص عادي AAA (7.0)"
+  },
+  "conLargeAaa": {
+    "message": "نص كبير AAA (4.5)"
+  },
+  "conPass": {
+    "message": "مطابق"
+  },
+  "conFail": {
+    "message": "غير مطابق"
+  },
+  "conAutoFixBtn": {
+    "message": "تعديل النص تلقائياً للتوافق مع معيار AA"
+  },
+  "histSearchPlaceholder": {
+    "message": "تصفية الألوان المحفوظة..."
+  },
+  "histExportCss": {
+    "message": "تصدير CSS"
+  },
+  "histExportJson": {
+    "message": "تصدير JSON"
+  },
+  "histClearAll": {
+    "message": "مسح الكل"
+  },
+  "histEmpty": {
+    "message": "لا توجد ألوان محفوظة في السجل بعد."
+  },
+  "linkColorTool": {
+    "message": "فتح استوديو الألوان الكامل على Sunasty.com ←"
+  },
+  "linkContrastTool": {
+    "message": "فتح فاحص التباين على Sunasty.com ←"
+  },
+  "footerTools": {
+    "message": "Sunasty.com — أكثر من 170 أداة محلية مجانية"
+  },
+  "footerBy": {
+    "message": "بواسطة Ulysan"
+  },
+  "themeToggleTitle": {
+    "message": "تبديل المظهر الفاتح أو الداكن"
+  }
+}

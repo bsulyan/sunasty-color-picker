@@ -1,0 +1,161 @@
+{
+  "extName": {
+    "message": "Sunasty カラーピッカー＆スポイトツール"
+  },
+  "extDescription": {
+    "message": "ピクセル拡大ルーペで画面上の色を正確に取得し、Webページの配色パレット抽出や文字のコントラスト比判定をローカルで実行します。"
+  },
+  "cmdPickColor": {
+    "message": "Sunasty カラーピッカー＆スポイトツール"
+  },
+  "ctxPickColor": {
+    "message": "Sunastyでページの色を検査"
+  },
+  "tabPick": {
+    "message": "スポイト"
+  },
+  "tabPalette": {
+    "message": "パレット"
+  },
+  "tabContrast": {
+    "message": "コントラスト"
+  },
+  "tabHistory": {
+    "message": "履歴"
+  },
+  "btnEyedropper": {
+    "message": "画面から色を抽出"
+  },
+  "btnLoupe": {
+    "message": "タブ上のピクセルルーペ"
+  },
+  "loupeTitle": {
+    "message": "ピクセルをクリックして正確な色を取得します"
+  },
+  "loupeClose": {
+    "message": "ルーペを閉じる"
+  },
+  "labelActiveColor": {
+    "message": "選択中の色"
+  },
+  "labelHexCode": {
+    "message": "16進数カラーコード"
+  },
+  "labelRgbCode": {
+    "message": "赤・緑・青 (RGB)"
+  },
+  "labelHslCode": {
+    "message": "色相・彩度・輝度"
+  },
+  "labelOklchCode": {
+    "message": "知覚均等カラースペース"
+  },
+  "labelTailwind": {
+    "message": "最も近いTailwindシェード"
+  },
+  "labelShades": {
+    "message": "シェードスケール"
+  },
+  "labelHarmonies": {
+    "message": "カラーハーモニー"
+  },
+  "harmonyComp": {
+    "message": "補色"
+  },
+  "harmonyAnalog": {
+    "message": "類似色"
+  },
+  "harmonyTriad": {
+    "message": "トライアド"
+  },
+  "btnCopy": {
+    "message": "コピー"
+  },
+  "copiedToast": {
+    "message": "クリップボードにコピーしました"
+  },
+  "palTitle": {
+    "message": "現在のタブで検出された主要な配色"
+  },
+  "palRescanBtn": {
+    "message": "ページを再解析"
+  },
+  "palExportCss": {
+    "message": "CSS変数を出力"
+  },
+  "palExportJson": {
+    "message": "JSON出力"
+  },
+  "palEmpty": {
+    "message": "「ページを再解析」をクリックして色を抽出します。"
+  },
+  "conForeground": {
+    "message": "文字色"
+  },
+  "conBackground": {
+    "message": "背景色"
+  },
+  "conSwapBtn": {
+    "message": "入れ替え"
+  },
+  "conRatioLabel": {
+    "message": "コントラスト比"
+  },
+  "conPreviewTitle": {
+    "message": "インターフェース見出しのサンプル"
+  },
+  "conPreviewBody": {
+    "message": "十分なコントラスト比を確保することで、明るい背景でも暗い背景でも高い可読性を維持できます。"
+  },
+  "conNormalAa": {
+    "message": "通常文字 AA (4.5)"
+  },
+  "conLargeAa": {
+    "message": "大文字 AA (3.0)"
+  },
+  "conNormalAaa": {
+    "message": "通常文字 AAA (7.0)"
+  },
+  "conLargeAaa": {
+    "message": "大文字 AAA (4.5)"
+  },
+  "conPass": {
+    "message": "適合"
+  },
+  "conFail": {
+    "message": "不足"
+  },
+  "conAutoFixBtn": {
+    "message": "AA基準を満たすよう文字色を自動調整"
+  },
+  "histSearchPlaceholder": {
+    "message": "保存した色を検索..."
+  },
+  "histExportCss": {
+    "message": "CSS出力"
+  },
+  "histExportJson": {
+    "message": "JSON出力"
+  },
+  "histClearAll": {
+    "message": "すべて削除"
+  },
+  "histEmpty": {
+    "message": "保存された色の履歴はまだありません。"
+  },
+  "linkColorTool": {
+    "message": "Sunasty.comで高度なカラーツールを開く →"
+  },
+  "linkContrastTool": {
+    "message": "Sunasty.comでコントラストチェッカーを開く →"
+  },
+  "footerTools": {
+    "message": "Sunasty.com — 170以上のローカルツール"
+  },
+  "footerBy": {
+    "message": "By Ulysan"
+  },
+  "themeToggleTitle": {
+    "message": "ライト・ダークテーマ切替"
+  }
+}

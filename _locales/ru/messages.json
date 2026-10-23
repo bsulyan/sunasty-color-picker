@@ -1,0 +1,161 @@
+{
+  "extName": {
+    "message": "Sunasty Пипетка и Палитра Цветов"
+  },
+  "extDescription": {
+    "message": "Выбирайте любой цвет на экране с пиксельной лупой, извлекайте палитру веб-страницы и проверяйте контрастность текста локально."
+  },
+  "cmdPickColor": {
+    "message": "Sunasty Пипетка и Палитра Цветов"
+  },
+  "ctxPickColor": {
+    "message": "Исследовать цвета страницы с Sunasty"
+  },
+  "tabPick": {
+    "message": "Пипетка"
+  },
+  "tabPalette": {
+    "message": "Палитра"
+  },
+  "tabContrast": {
+    "message": "Контраст"
+  },
+  "tabHistory": {
+    "message": "История"
+  },
+  "btnEyedropper": {
+    "message": "Выбрать цвет с экрана"
+  },
+  "btnLoupe": {
+    "message": "Пиксельная лупа вкладки"
+  },
+  "loupeTitle": {
+    "message": "Нажмите на любой пиксель для выбора точного цвета"
+  },
+  "loupeClose": {
+    "message": "Закрыть лупу"
+  },
+  "labelActiveColor": {
+    "message": "Выбранный цвет"
+  },
+  "labelHexCode": {
+    "message": "Шестнадцатеричный код"
+  },
+  "labelRgbCode": {
+    "message": "Красный Зеленый Синий"
+  },
+  "labelHslCode": {
+    "message": "Тон Насыщенность Светлота"
+  },
+  "labelOklchCode": {
+    "message": "Перцептивное пространство"
+  },
+  "labelTailwind": {
+    "message": "Ближайший оттенок Tailwind"
+  },
+  "labelShades": {
+    "message": "Шкала оттенков"
+  },
+  "labelHarmonies": {
+    "message": "Цветовые гармонии"
+  },
+  "harmonyComp": {
+    "message": "Комплементарный"
+  },
+  "harmonyAnalog": {
+    "message": "Аналоговый"
+  },
+  "harmonyTriad": {
+    "message": "Триадный"
+  },
+  "btnCopy": {
+    "message": "Копировать"
+  },
+  "copiedToast": {
+    "message": "Скопировано в буфер обмена"
+  },
+  "palTitle": {
+    "message": "Основные цвета активной вкладки"
+  },
+  "palRescanBtn": {
+    "message": "Анализировать страницу"
+  },
+  "palExportCss": {
+    "message": "Экспорт CSS-переменных"
+  },
+  "palExportJson": {
+    "message": "Экспорт JSON"
+  },
+  "palEmpty": {
+    "message": "Нажмите Анализировать для извлечения цветов текущей страницы."
+  },
+  "conForeground": {
+    "message": "Цвет текста"
+  },
+  "conBackground": {
+    "message": "Цвет фона"
+  },
+  "conSwapBtn": {
+    "message": "Поменять"
+  },
+  "conRatioLabel": {
+    "message": "Коэффициент контрастности"
+  },
+  "conPreviewTitle": {
+    "message": "Пример заголовка интерфейса"
+  },
+  "conPreviewBody": {
+    "message": "Достаточный контраст обеспечивает комфортное чтение на светлых и темных поверхностях."
+  },
+  "conNormalAa": {
+    "message": "Обычный текст AA (4.5)"
+  },
+  "conLargeAa": {
+    "message": "Крупный текст AA (3.0)"
+  },
+  "conNormalAaa": {
+    "message": "Обычный текст AAA (7.0)"
+  },
+  "conLargeAaa": {
+    "message": "Крупный текст AAA (4.5)"
+  },
+  "conPass": {
+    "message": "Норма"
+  },
+  "conFail": {
+    "message": "Низкий"
+  },
+  "conAutoFixBtn": {
+    "message": "Автоматически исправить цвет для уровня AA"
+  },
+  "histSearchPlaceholder": {
+    "message": "Поиск сохраненных цветов..."
+  },
+  "histExportCss": {
+    "message": "Экспорт CSS"
+  },
+  "histExportJson": {
+    "message": "Экспорт JSON"
+  },
+  "histClearAll": {
+    "message": "Очистить всё"
+  },
+  "histEmpty": {
+    "message": "История сохраненных цветов пуста."
+  },
+  "linkColorTool": {
+    "message": "Полная студия цвета на Sunasty.com →"
+  },
+  "linkContrastTool": {
+    "message": "Проверка контраста на Sunasty.com →"
+  },
+  "footerTools": {
+    "message": "Sunasty.com — 170+ локальных инструментов"
+  },
+  "footerBy": {
+    "message": "От Ulysan"
+  },
+  "themeToggleTitle": {
+    "message": "Переключить светлую или темную тему"
+  }
+}

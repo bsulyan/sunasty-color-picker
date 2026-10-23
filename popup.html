@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunasty Color Picker &amp; Eyedropper</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="cp-header">
+    <div class="cp-brand">
+      <div class="cp-logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="m2 22 1-1h3l9-9"/>
+          <path d="M3 21v-3l9-9"/>
+          <path d="m15 6 3.4-3.4a2.1 2.1 0 1 1 3 3L18 9l.4.4a2.1 2.1 0 1 1-3 3l-3.8-3.8a2.1 2.1 0 1 1 3-3l.4.4Z"/>
+        </svg>
+      </div>
+      <span class="cp-title">Sunasty Color</span>
+    </div>
+    <div class="cp-header-actions">
+      <button type="button" id="btn-theme-toggle" class="icon-btn" title="Switch light and dark theme" aria-label="Switch light and dark theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="4"/>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+      </button>
+      <a href="https://sunasty.com/color-picker/?utm_source=chrome_extension" target="_blank" rel="noopener noreferrer" class="header-site-link">sunasty.com ↗</a>
+    </div>
+  </header>
+
+  <!-- 4 Navigation Tabs -->
+  <nav class="cp-tabs" role="tablist" aria-label="Main navigation">
+    <button type="button" role="tab" id="tab-btn-pick" class="cp-tab-btn" aria-selected="true" aria-controls="panel-pick" data-tab="pick">
+      <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="m2 22 1-1h3l9-9"/>
+        <path d="M3 21v-3l9-9"/>
+        <path d="m15 6 3.4-3.4a2.1 2.1 0 1 1 3 3L18 9"/>
+      </svg>
+      <span data-i18n="tabPick">Picker</span>
+    </button>
+    <button type="button" role="tab" id="tab-btn-palette" class="cp-tab-btn" aria-selected="false" aria-controls="panel-palette" data-tab="palette">
+      <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="3" y="3" width="7" height="7" rx="1"/>
+        <rect x="14" y="3" width="7" height="7" rx="1"/>
+        <rect x="3" y="14" width="7" height="7" rx="1"/>
+        <rect x="14" y="14" width="7" height="7" rx="1"/>
+      </svg>
+      <span data-i18n="tabPalette">Palette</span>
+    </button>
+    <button type="button" role="tab" id="tab-btn-contrast" class="cp-tab-btn" aria-selected="false" aria-controls="panel-contrast" data-tab="contrast">
+      <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="9"/>
+        <path d="M12 3v18"/>
+      </svg>
+      <span data-i18n="tabContrast">Contrast</span>
+    </button>
+    <button type="button" role="tab" id="tab-btn-history" class="cp-tab-btn" aria-selected="false" aria-controls="panel-history" data-tab="history">
+      <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="9"/>
+        <polyline points="12 7 12 12 15 15"/>
+      </svg>
+      <span data-i18n="tabHistory">History</span>
+      <span id="history-count-pill" class="tab-pill" hidden>0</span>
+    </button>
+  </nav>
+
+  <!-- Main Workspace -->
+  <main class="cp-main">
+    <!-- TAB 1: PICKER & EYEDROPPER -->
+    <section id="panel-pick" role="tabpanel" aria-labelledby="tab-btn-pick" class="cp-panel">
+      <div class="action-row">
+        <button type="button" id="btn-eyedropper" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="m2 22 1-1h3l9-9"/>
+            <path d="M3 21v-3l9-9"/>
+            <path d="m15 6 3.4-3.4a2.1 2.1 0 1 1 3 3L18 9"/>
+          </svg>
+          <span data-i18n="btnEyedropper">Pick color from screen</span>
+        </button>
+        <button type="button" id="btn-loupe" class="btn btn-secondary">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+            <line x1="11" y1="8" x2="11" y2="14"/>
+            <line x1="8" y1="11" x2="14" y2="11"/>
+          </svg>
+          <span data-i18n="btnLoupe">Pixel loupe on tab</span>
+        </button>
+      </div>
+
+      <!-- Interactive 9x9 Pixel Magnifier Loupe -->
+      <div id="loupe-workspace" class="loupe-workspace" hidden>
+        <div class="loupe-header">
+          <span class="loupe-title" data-i18n="loupeTitle">Click any pixel to sample its exact color</span>
+          <button type="button" id="btn-close-loupe" class="btn btn-xs btn-secondary" data-i18n="loupeClose">Close loupe</button>
+        </div>
+        <div class="loupe-body">
+          <div class="loupe-source-wrap">
+            <canvas id="loupe-source-canvas" width="224" height="117"></canvas>
+          </div>
+          <div class="loupe-grid-wrap">
+            <canvas id="loupe-grid-canvas" width="117" height="117"></canvas>
+            <div id="loupe-coord-readout" class="loupe-coord-readout">#2563EB (112, 58)</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Selected Color Input Bar -->
+      <div class="selected-color-card">
+        <input type="color" id="active-color-swatch" class="color-swatch-input" value="#2563eb" aria-label="Selected color">
+        <div class="selected-color-meta">
+          <label for="active-color-input" class="field-caption" data-i18n="labelActiveColor">Selected color</label>
+          <input type="text" id="active-color-input" class="mono-text-input" value="#2563EB" spellcheck="false">
+        </div>
+        <span id="tailwind-badge" class="mono-badge">blue-600</span>
+      </div>
+
+      <!-- Color Notations Table -->
+      <div class="notations-list">
+        <div class="notation-row">
+          <span class="notation-label" data-i18n="labelHexCode">Hexadecimal</span>
+          <code id="val-hex" class="notation-val">#2563EB</code>
+          <button type="button" class="btn btn-xs btn-secondary js-copy-val" data-target="val-hex" data-i18n="btnCopy">Copy</button>
+        </div>
+        <div class="notation-row">
+          <span class="notation-label" data-i18n="labelRgbCode">Red Green Blue</span>
+          <code id="val-rgb" class="notation-val">rgb(37, 99, 235)</code>
+          <button type="button" class="btn btn-xs btn-secondary js-copy-val" data-target="val-rgb" data-i18n="btnCopy">Copy</button>
+        </div>
+        <div class="notation-row">
+          <span class="notation-label" data-i18n="labelHslCode">Hue Saturation Lightness</span>
+          <code id="val-hsl" class="notation-val">hsl(217, 91%, 53%)</code>
+          <button type="button" class="btn btn-xs btn-secondary js-copy-val" data-target="val-hsl" data-i18n="btnCopy">Copy</button>
+        </div>
+        <div class="notation-row">
+          <span class="notation-label" data-i18n="labelOklchCode">Perceptual Lightness Chroma</span>
+          <code id="val-oklch" class="notation-val">oklch(0.55 0.22 263)</code>
+          <button type="button" class="btn btn-xs btn-secondary js-copy-val" data-target="val-oklch" data-i18n="btnCopy">Copy</button>
+        </div>
+      </div>
+
+      <!-- 9-Step Tonal Shade Scale -->
+      <div class="scale-block">
+        <div class="block-header">
+          <span class="field-caption" data-i18n="labelShades">Tonal shade scale</span>
+        </div>
+        <div id="shades-strip" class="shades-strip"></div>
+      </div>
+
+      <!-- Color Harmonies -->
+      <div class="scale-block">
+        <div class="block-header">
+          <span class="field-caption" data-i18n="labelHarmonies">Color harmonies</span>
+        </div>
+        <div id="harmonies-strip" class="harmonies-strip"></div>
+      </div>
+
+      <div class="context-cta-bar">
+        <a href="https://sunasty.com/color-picker/?utm_source=chrome_extension" target="_blank" rel="noopener noreferrer" class="context-cta-link" data-i18n="linkColorTool">
+          Open full color studio on Sunasty.com →
+        </a>
+      </div>
+    </section>
+
+    <!-- TAB 2: PAGE PALETTE -->
+    <section id="panel-palette" role="tabpanel" aria-labelledby="tab-btn-palette" class="cp-panel" hidden>
+      <div class="palette-top-bar">
+        <span class="field-caption" data-i18n="palTitle">Dominant colors detected on active tab</span>
+        <button type="button" id="btn-rescan-palette" class="btn btn-xs btn-primary" data-i18n="palRescanBtn">Rescan page</button>
+      </div>
+
+      <div id="palette-grid" class="palette-grid"></div>
+
+      <div class="palette-actions">
+        <button type="button" id="btn-palette-css" class="btn btn-secondary" data-i18n="palExportCss">Export CSS variables</button>
+        <button type="button" id="btn-palette-json" class="btn btn-secondary" data-i18n="palExportJson">Export JSON</button>
+      </div>
+
+      <div class="context-cta-bar">
+        <a href="https://sunasty.com/color-picker/?utm_source=chrome_extension" target="_blank" rel="noopener noreferrer" class="context-cta-link" data-i18n="linkColorTool">
+          Open full color studio on Sunasty.com →
+        </a>
+      </div>
+    </section>
+
+    <!-- TAB 3: WCAG CONTRAST CHECKER -->
+    <section id="panel-contrast" role="tabpanel" aria-labelledby="tab-btn-contrast" class="cp-panel" hidden>
+      <div class="contrast-inputs-row">
+        <div class="contrast-input-card">
+          <label for="contrast-fg-input" class="field-caption" data-i18n="conForeground">Text color</label>
+          <div class="contrast-picker-line">
+            <input type="color" id="contrast-fg-swatch" class="color-swatch-sm" value="#0f172a">
+            <input type="text" id="contrast-fg-input" class="mono-text-input" value="#0F172A" spellcheck="false">
+          </div>
+        </div>
+        <button type="button" id="btn-contrast-swap" class="btn btn-xs btn-secondary contrast-swap-btn" title="Swap colors">⇄</button>
+        <div class="contrast-input-card">
+          <label for="contrast-bg-input" class="field-caption" data-i18n="conBackground">Background color</label>
+          <div class="contrast-picker-line">
+            <input type="color" id="contrast-bg-swatch" class="color-swatch-sm" value="#ffffff">
+            <input type="text" id="contrast-bg-input" class="mono-text-input" value="#FFFFFF" spellcheck="false">
+          </div>
+        </div>
+      </div>
+
+      <!-- Sample Preview Card -->
+      <div id="contrast-preview-box" class="contrast-preview-box">
+        <div class="contrast-preview-top">
+          <span id="contrast-preview-title" class="contrast-preview-title" data-i18n="conPreviewTitle">Sample interface heading</span>
+          <span id="contrast-ratio-value" class="contrast-ratio-pill">17.85 : 1</span>
+        </div>
+        <p id="contrast-preview-body" class="contrast-preview-body" data-i18n="conPreviewBody">
+          Readable body text ensures clear visual hierarchy across light and dark surfaces.
+        </p>
+      </div>
+
+      <!-- 4 WCAG Levels Grid -->
+      <div class="wcag-grid">
+        <div class="wcag-card">
+          <span class="wcag-label" data-i18n="conNormalAa">Normal text AA (4.5)</span>
+          <span id="badge-aa-normal" class="mono-badge">Pass</span>
+        </div>
+        <div class="wcag-card">
+          <span class="wcag-label" data-i18n="conLargeAa">Large text AA (3.0)</span>
+          <span id="badge-aa-large" class="mono-badge">Pass</span>
+        </div>
+        <div class="wcag-card">
+          <span class="wcag-label" data-i18n="conNormalAaa">Normal text AAA (7.0)</span>
+          <span id="badge-aaa-normal" class="mono-badge">Pass</span>
+        </div>
+        <div class="wcag-card">
+          <span class="wcag-label" data-i18n="conLargeAaa">Large text AAA (4.5)</span>
+          <span id="badge-aaa-large" class="mono-badge">Pass</span>
+        </div>
+      </div>
+
+      <button type="button" id="btn-contrast-autofix" class="btn btn-primary" data-i18n="conAutoFixBtn">
+        Auto-adjust text for AA compliance
+      </button>
+
+      <div class="context-cta-bar">
+        <a href="https://sunasty.com/contrast-checker/?utm_source=chrome_extension" target="_blank" rel="noopener noreferrer" class="context-cta-link" data-i18n="linkContrastTool">
+          Open contrast analyzer on Sunasty.com →
+        </a>
+      </div>
+    </section>
+
+    <!-- TAB 4: HISTORY -->
+    <section id="panel-history" role="tabpanel" aria-labelledby="tab-btn-history" class="cp-panel" hidden>
+      <div class="history-toolbar">
+        <input type="search" id="history-search-input" class="search-input" placeholder="Filter saved colors...">
+        <div class="history-btns">
+          <button type="button" id="btn-hist-css" class="btn btn-xs btn-secondary" data-i18n="histExportCss">Export CSS</button>
+          <button type="button" id="btn-hist-json" class="btn btn-xs btn-secondary" data-i18n="histExportJson">Export JSON</button>
+          <button type="button" id="btn-hist-clear" class="btn btn-xs btn-danger-ghost" data-i18n="histClearAll">Clear all</button>
+        </div>
+      </div>
+
+      <div id="history-list" class="history-list"></div>
+      <div id="history-empty" class="empty-box" hidden>
+        <p data-i18n="histEmpty">No colors saved in history yet.</p>
+      </div>
+    </section>
+  </main>
+
+  <div id="toast-banner" class="toast-banner" role="status" aria-live="polite" hidden></div>
+
+  <footer class="cp-footer">
+    <a href="https://sunasty.com/color-picker/?utm_source=chrome_extension" target="_blank" rel="noopener noreferrer" data-i18n="footerTools">Sunasty.com — 170+ local tools</a>
+    <span aria-hidden="true">•</span>
+    <a href="https://ulysan.fr/" target="_blank" rel="noopener noreferrer" data-i18n="footerBy">By Ulysan</a>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>

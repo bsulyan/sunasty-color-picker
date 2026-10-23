@@ -1,0 +1,161 @@
+{
+  "extName": {
+    "message": "Sunasty Kleurkiezer & Pipet"
+  },
+  "extDescription": {
+    "message": "Kies elke schermkleur met een pixelloep, extraheer het kleurenpalet van de pagina en controleer het tekstcontrast lokaal."
+  },
+  "cmdPickColor": {
+    "message": "Sunasty Kleurkiezer & Pipet"
+  },
+  "ctxPickColor": {
+    "message": "Paginakleuren inspecteren met Sunasty"
+  },
+  "tabPick": {
+    "message": "Pipet"
+  },
+  "tabPalette": {
+    "message": "Palet"
+  },
+  "tabContrast": {
+    "message": "Contrast"
+  },
+  "tabHistory": {
+    "message": "Geschiedenis"
+  },
+  "btnEyedropper": {
+    "message": "Kies kleur van scherm"
+  },
+  "btnLoupe": {
+    "message": "Pixelloep op tabblad"
+  },
+  "loupeTitle": {
+    "message": "Klik op een pixel om de exacte kleur te kiezen"
+  },
+  "loupeClose": {
+    "message": "Sluit loep"
+  },
+  "labelActiveColor": {
+    "message": "Geselecteerde kleur"
+  },
+  "labelHexCode": {
+    "message": "Hexadecimale waarde"
+  },
+  "labelRgbCode": {
+    "message": "Rood Groen Blauw"
+  },
+  "labelHslCode": {
+    "message": "Tint Verzadiging Helderheid"
+  },
+  "labelOklchCode": {
+    "message": "Perceptuele kleurruimte"
+  },
+  "labelTailwind": {
+    "message": "Dichtstbijzijnde Tailwind-tint"
+  },
+  "labelShades": {
+    "message": "Tintenschaal"
+  },
+  "labelHarmonies": {
+    "message": "Kleurharmonieën"
+  },
+  "harmonyComp": {
+    "message": "Complementair"
+  },
+  "harmonyAnalog": {
+    "message": "Analoog"
+  },
+  "harmonyTriad": {
+    "message": "Triadisch"
+  },
+  "btnCopy": {
+    "message": "Kopiëren"
+  },
+  "copiedToast": {
+    "message": "Gekopieerd naar klembord"
+  },
+  "palTitle": {
+    "message": "Dominante kleuren op het actieve tabblad"
+  },
+  "palRescanBtn": {
+    "message": "Pagina analyseren"
+  },
+  "palExportCss": {
+    "message": "Exporteer CSS-variabelen"
+  },
+  "palExportJson": {
+    "message": "Exporteer JSON"
+  },
+  "palEmpty": {
+    "message": "Klik op Analyseren om de kleuren van de pagina op te halen."
+  },
+  "conForeground": {
+    "message": "Tekstkleur"
+  },
+  "conBackground": {
+    "message": "Achtergrondkleur"
+  },
+  "conSwapBtn": {
+    "message": "Omwisselen"
+  },
+  "conRatioLabel": {
+    "message": "Contrastverhouding"
+  },
+  "conPreviewTitle": {
+    "message": "Voorbeeldkop van interface"
+  },
+  "conPreviewBody": {
+    "message": "Goed leesbare tekst zorgt voor een duidelijke visuele hiërarchie op elk scherm."
+  },
+  "conNormalAa": {
+    "message": "Normale tekst AA (4.5)"
+  },
+  "conLargeAa": {
+    "message": "Grote tekst AA (3.0)"
+  },
+  "conNormalAaa": {
+    "message": "Normale tekst AAA (7.0)"
+  },
+  "conLargeAaa": {
+    "message": "Grote tekst AAA (4.5)"
+  },
+  "conPass": {
+    "message": "Voldoet"
+  },
+  "conFail": {
+    "message": "Te laag"
+  },
+  "conAutoFixBtn": {
+    "message": "Tekst automatisch aanpassen voor AA"
+  },
+  "histSearchPlaceholder": {
+    "message": "Opgeslagen kleuren filteren..."
+  },
+  "histExportCss": {
+    "message": "Exporteer CSS"
+  },
+  "histExportJson": {
+    "message": "Exporteer JSON"
+  },
+  "histClearAll": {
+    "message": "Alles wissen"
+  },
+  "histEmpty": {
+    "message": "Nog geen kleuren opgeslagen."
+  },
+  "linkColorTool": {
+    "message": "Open volledige kleurstudio op Sunasty.com →"
+  },
+  "linkContrastTool": {
+    "message": "Open contrastcontrole op Sunasty.com →"
+  },
+  "footerTools": {
+    "message": "Sunasty.com — 170+ lokale tools"
+  },
+  "footerBy": {
+    "message": "Door Ulysan"
+  },
+  "themeToggleTitle": {
+    "message": "Wissel tussen licht en donker thema"
+  }
+}
