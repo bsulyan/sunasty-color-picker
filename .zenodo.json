@@ -1,0 +1,32 @@
+{
+  "title": "sunasty-color-picker: Offline Eyedropper and WCAG Contrast Checker for Chrome",
+  "description": "Offline Chrome extension (Manifest V3) for color picking, OKLCH conversion, palette extraction, and WCAG 2.1 contrast checking. Developed for Sunasty.",
+  "creators": [
+    {
+      "name": "Sulyan, Bastien",
+      "affiliation": "Sunasty"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "chrome-extension",
+    "color-picker",
+    "oklch",
+    "wcag",
+    "manifest-v3"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://sunasty.com",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/bsulyan/sunasty-color-picker",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    }
+  ],
+  "upload_type": "software"
+}
