@@ -1,8 +1,8 @@
 # Sunasty Color Picker & Eyedropper
 
-Chrome extension (Manifest V3) for picking screen colors, converting between `HEX`, `RGB`, `HSL`, and `OKLCH`, extracting webpage palettes, and checking `WCAG 2.1` text contrast ratios.
+Chrome & Microsoft Edge extension (Manifest V3) for picking screen colors, converting between `HEX`, `RGB`, `HSL`, and `OKLCH`, extracting webpage palettes, and checking `WCAG 2.1` text contrast ratios.
 
-Web tools: [Sunasty Color Picker](https://sunasty.com/color-picker/) | [Sunasty Contrast Checker](https://sunasty.com/contrast-checker/) | [Ulysan](https://ulysan.fr/)
+Install: [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/jcjfhbbmbnehefadhmhhegoccbdcfkgm) | Web tools: [Sunasty Color Picker](https://sunasty.com/color-picker/) | [Sunasty Contrast Checker](https://sunasty.com/contrast-checker/) | [Ulysan](https://ulysan.fr/)
 
 ---
 
@@ -56,7 +56,7 @@ Runs the Node unit tests (`src/core/color-math.js` conversions, OKLCH, WCAG cont
 
 ## Note en français
 
-Extension Chrome (Manifest V3) combinant pipette à l'écran (`EyeDropper` et loupe au pixel), convertisseur `HEX` / `RGB` / `HSL` / `OKLCH`, extracteur de palette de la page active et vérificateur de contraste `WCAG 2.1 AA / AAA`. Retrouvez également l'outil web complet sur [sunasty.com/color-picker](https://sunasty.com/color-picker/).
+Extension Chrome et Microsoft Edge (Manifest V3) combinant pipette à l'écran (`EyeDropper` et loupe au pixel), convertisseur `HEX` / `RGB` / `HSL` / `OKLCH`, extracteur de palette de la page active et vérificateur de contraste `WCAG 2.1 AA / AAA`. Installer sur [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/jcjfhbbmbnehefadhmhhegoccbdcfkgm) ou utiliser l'outil web complet sur [sunasty.com/color-picker](https://sunasty.com/color-picker/).
 
 ## License
 
